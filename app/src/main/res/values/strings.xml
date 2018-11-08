@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MapDemo</string>
+    <string name="enter_poi_map">进入搜索poi</string>
+    <string name="enter_position_map">仿微信位置发送</string>
+
+    <!--位置-->
+    <string name="location">位置</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">确认</string>
+    <string name="location_search">搜索地点</string>
+    <string name="loadmore_error">加载失败,点击重试</string>
+    <string name="common_search">搜索</string>
+    <string name="common_search_key">关键字</string>
+    <string name="current_select_address">当前选择地址：%1$s</string>
+</resources>

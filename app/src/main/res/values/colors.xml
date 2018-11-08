@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="common_white">#fff</color>
+    <color name="common_blue">#4F8AFF</color>
+    <color name="common_gray_light">#E3E3E3</color>
+    <!-- 主要/标题 -->
+    <color name="common_title">#161F29</color>
+    <!-- 背景色 -->
+    <color name="common_bg">#f7f7f7</color>
+    <!-- 描述/说明 -->
+    <color name="common_explain">#7D8389</color>
+    <!-- 副标题/正文 -->
+    <color name="common_content">#333A40</color>
+    <color name="search_view_gray">#EDEDEE</color>
+</resources>

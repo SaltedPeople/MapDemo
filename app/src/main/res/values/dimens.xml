@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--间距-->
+    <dimen name="common_padding">15dp</dimen>
+    <!--间距-->
+    <dimen name="common_margin">15dp</dimen>
+</resources>

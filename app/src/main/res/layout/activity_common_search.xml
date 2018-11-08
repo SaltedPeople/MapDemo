@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/common_white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_white"
+        android:padding="@dimen/common_padding">
+
+        <TextView
+            android:id="@+id/search_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingEnd="12dp"
+            android:paddingStart="@dimen/common_padding"
+            android:text="@string/common_search"
+            android:textColor="@color/common_blue"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_toStartOf="@id/search_confirm"
+            android:background="@drawable/shape_search_full_gray">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/common_padding"
+                android:src="@mipmap/icon_common_search" />
+
+            <EditText
+                android:id="@+id/search_edit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:imeOptions="actionSearch"
+                android:paddingStart="5dp"
+                android:singleLine="true"
+                android:hint="@string/common_search_key"
+                android:textColor="@color/common_content"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/search_del"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:src="@mipmap/icon_common_dele" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
